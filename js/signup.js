@@ -47,7 +47,7 @@ signUpBtn.addEventListener("click", (e) => {
       .then((userCredential) => {
         // Signed up
         const user = userCredential.user;
-        window.location.href = "index.html";
+        window.location.href = "signin.html";
         // ...
       })
       .catch((error) => {
