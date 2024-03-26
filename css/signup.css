@@ -18,13 +18,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    padding: 40px;
+    width: 600px;
+    padding: 40px 40px;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.774);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(255, 255, 255, 0.6);
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .account-box h1 {
@@ -37,3 +39,29 @@
   label{
     color: white;
   }
+  .info {
+    width: 400px;
+    text-align: center;
+  }
+  .info input{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  button:not(:disabled){
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.nav img {
+    width: 80px;
+    height: 80px;
+}
