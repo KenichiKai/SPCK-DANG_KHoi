@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="container">
         <div class="intro">
             <div class="box">
                 <ul>
-                  <li class="item-1">[26.03 - 31.03] FITFLOP - VOUCHER 10% CHO MỌI HÓA ĐƠN &gt;&gt; XEM NGAY</li>
-                  <li class="item-2">[14-31.03] - SPEEDO, ZOGGS, ONEILL -  GIÁ ĐẶC BIỆT &gt;&gt; XEM NGAY</li>
-                  <li class="item-3">[15-31.03] - LFC -  GIÁ ĐẶC BIỆT + QUÀ TẶNG &gt;&gt; XEM NGAY]</li>
-                  <li class="item-4">[25.03 - 31.03] LƯƠNG VỀ SALE TỚI - GIẢM ĐẾN 60% &gt;&gt; XEM NGAY</li>
-                </ul>  
-              </div>
+                    <li class="item-1">[26.03 - 31.03] FITFLOP - VOUCHER 10% CHO MỌI HÓA ĐƠN &gt;&gt; XEM NGAY</li>
+                    <li class="item-2">[14-31.03] - SPEEDO, ZOGGS, ONEILL - GIÁ ĐẶC BIỆT &gt;&gt; XEM NGAY</li>
+                    <li class="item-3">[15-31.03] - LFC - GIÁ ĐẶC BIỆT + QUÀ TẶNG &gt;&gt; XEM NGAY</li>
+                    <li class="item-4">[25.03 - 31.03] LƯƠNG VỀ SALE TỚI - GIẢM ĐẾN 60% &gt;&gt; XEM NGAY</li>
+                </ul>
+            </div>
         </div>
         <div class="top-menu">
             <div>
                 <a href="index.html">
-                    <img src="./images/Rewrite_Nike_Logo_Design_History_Evolution_0_1024x1024.webp" alt="" width="80px"; height="60px">
+                    <img src="./images/Rewrite_Nike_Logo_Design_History_Evolution_0_1024x1024.webp" alt="" width="80px"
+                        ; height="60px">
                 </a>
             </div>
             <div class="page">
@@ -34,25 +38,62 @@
                 <a href="#">For</a>
                 <a href="#">Visiting</a>
             </div>
-                
 
-    <div class="icon">
-        <input id="search-input" class="searchInput" placeholder="Searching..." type="text">
 
-        <button id="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <a href="./cart/cart.html">
-            <i class="fa-solid fa-cart-shopping"></i>
-        </a>
-        <a href="signup.html">
-            <i class="fa-solid fa-user" id="users"></i>
-        </a>
-        <div class="lines"></div>
-        <i class="fa-solid fa-globe"></i>
-    </div>
-</div>
-    
+            <div class="icon">
+                <input id="search-input" class="searchInput" placeholder="Searching..." type="text">
+
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <a href="./cart/cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="signup.html">
+                    <i class="fa-solid fa-user" id="users"></i>
+                </a>
+                <div class="lines"></div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img
+                        src="./images/PUMA_ONEPIECE_1545x500_2c9199d7-acc0-4722-af9c-3635cd38404b_900x@2x.jpg" alt="">
+                </div>
+                <div class="swiper-slide"><img
+                        src="./images/MIZUNO_1545x500_8a897078-58bb-4754-a92f-755529bcfd61_900x@2x.jpg" alt=""> </div>
+                <div class="swiper-slide"><img src="./images/Fitflop_1545x500_V_900x@2x.jpg" alt=""> </div>
+                <div class="swiper-slide"><img src="./images/2XU_1545_500_V_900x@2x.jpg" alt=""> </div>
+                <div class="swiper-slide"><img src="./images/Nike_Airmax_day_1545_500_V_900x@2x.jpg" alt=""> </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script type="module" src="./js/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                autoplay: {
+                    delay: 1500,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    clickable: true,
+                    el: ".swiper-pagination",
+                },
+            });
+        </script>
 </body>
-<script type="module" src="./js/index.js"></script>
+
 </html>
