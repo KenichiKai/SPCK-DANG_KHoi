@@ -122,10 +122,9 @@
 }
 
 .nav img {
-    width: 90px;
-    height: 80px;
-    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.6);
-}
+    width: 15%;
+    margin: 15px;
+  }
 
 .help{
   text-align: left;
@@ -134,3 +133,4 @@
 .help-a{
   margin-top: 10px;
 }
+

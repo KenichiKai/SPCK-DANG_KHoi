@@ -243,3 +243,40 @@ ul li {
     height: 100%;
     object-fit: cover;
 }
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.section {
+    margin: 50px 0;
+}
+
+.category>div>div {
+    background-color: #f3f3f3;
+
+}
+.category div{
+    border-radius: 5px;
+   justify-content: space-around;
+    display: flex;
+    transition: 3s;
+    transform: 0.3s;
+    row-gap: 10px;
+    
+}
+
+p{
+    margin: 0 0 1em;
+}
+
+.category .section:hover .child{
+    scale: 0.9 !important;
+    cursor: pointer;
+    color: greenyellow;
+}
+button{
+    cursor: pointer;
+}
