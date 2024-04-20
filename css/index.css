@@ -251,7 +251,7 @@ ul li {
 }
 
 .section {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 .category>div>div {
@@ -263,7 +263,7 @@ ul li {
    justify-content: space-around;
     display: flex;
     transition: 3s;
-    transform: 0.3s;
+    transform: 10s;
     row-gap: 10px;
     
 }
@@ -272,11 +272,44 @@ p{
     margin: 0 0 1em;
 }
 
+.category .section .child{
+    transition: all 0.3s;
+}
 .category .section:hover .child{
-    scale: 0.9 !important;
+    /* animation: scaleSmooth 0.3s ease-in-out;
+    animation-fill-mode: forwards; */
+    transform: scale(0.9);
     cursor: pointer;
-    color: greenyellow;
+    
 }
 button{
     cursor: pointer;
+}
+.category .sport-name:hover{
+    color: lightgreen;
+}
+.category .sport-name{
+    width: 120px;
+
+}
+.category .father{
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+@keyframes scaleSmooth{
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 0.9;
+    }
+}
+
+.section-promotion .VOUCHER{
+    display: flex;
+}
+.VOUCHER .background-promotion{
+    padding-top: 100%;
+    background-size: cover;
 }
