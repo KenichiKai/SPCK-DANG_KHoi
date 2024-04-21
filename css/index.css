@@ -313,3 +313,50 @@ button{
     padding-top: 100%;
     background-size: cover;
 }
+.VOUCHER .background-promotion:hover{
+    cursor: pointer;
+}
+
+.products-img img {
+    width: 100%;
+}
+
+.NEW {
+    margin-top: 20px;
+}
+
+.NEW .products-brand:hover{
+    color: #78E723;
+    cursor: pointer;
+}
+.NEW .products-img:hover{
+    
+    cursor: pointer;
+}
+.NEW .products-name:hover{
+    color: #78E723;
+    cursor: pointer;
+}
+.NEW .products-name{
+    font-size: 16px;
+}
+.NEW .products-brand:hover{
+    cursor: pointer;
+}
+.NEW .products-brand{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.NEW .products-price{
+    display: flex;
+}
+
+.NEW .discount-price{
+    color: red;
+}
+.NEW .sell-price{
+    text-decoration: line-through;
+    color: #1b1b1b;
+    margin-left: 20px;
+    
+}
