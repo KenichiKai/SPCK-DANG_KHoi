@@ -309,6 +309,11 @@ button{
 .section-promotion .VOUCHER{
     display: flex;
 }
+.scale-small:hover .background-promotion{
+    scale: 0.9 ;
+    transition: all 0.5s ease-in-out;
+}
+
 .VOUCHER .background-promotion{
     padding-top: 100%;
     background-size: cover;
@@ -358,5 +363,29 @@ button{
     text-decoration: line-through;
     color: #1b1b1b;
     margin-left: 20px;
+}
+.BRAND{
+    background-image: url("/images/baclground.png");
+}
+.custom-heading{
+    /* background-image: url("/images/baclground.png"); */
+    text-align: center;
+    color: white;
+    font-size: 34px;
     
 }
+.custom-heading img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.fa-star{
+    color: #ffbc09;;
+}
+
+/* ripped from other site */
+

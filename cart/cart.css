@@ -1,0 +1,42 @@
+.footer-outer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .btnDeleteAll {
+    padding: 15px 20px;
+    background: rgb(247, 161, 161);
+    color: red;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    transition: transform 0.5s;
+  }
+  .btnBuy {
+    padding: 15px 20px;
+    background: rgb(161, 247, 175);
+    color: #000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    transition: transform 0.5s;
+  }
+  .btnBuy:hover, .btnDeleteAll:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+  }
+  .btnDelete {
+    border-radius: 10px;
+    transition: transform 0.5s;
+  }
+  .btnDelete:hover {
+    background: rgb(247, 161, 161) !important;
+    color: red !important;
+    border: 1px solid red !important;
+  }
+  .top-menu img {
+    height: 100%;
+}
+  
