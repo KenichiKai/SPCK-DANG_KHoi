@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐẶT TÊN LẠI WEB CHO THẦY</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">PLASHOE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="men.html">Men</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="women.html">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LockBook</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="cart.html"><i class="fa-solid fa-bag-shopping "></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true"><i class="fa-solid fa-user "></i></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="main-container">
+      <div class="shoppingmain-outer">
+        <div class="shopping">
+            <div class="shopping-title">
+              <h1>YOUR CART</h1>
+            </div>
+            </div>
+            <div id="cartOuter" class="shopping-outer">
+                
+            </div>
+            <div class="footer-outer">
+                <button class="btnDeleteAll" onclick="deleteAll()">Delete All</button>
+                <button class="btnBuy" onclick="buyAll()">Buy</button>
+              </div>
+          </div>
+          
+      </div>
+      
+    </div>
+    
+    
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./assets/js/cart.js"></script>
+</html>

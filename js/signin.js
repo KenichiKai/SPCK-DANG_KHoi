@@ -16,9 +16,11 @@ import {
         e.preventDefault();
         var emailValueSI = signInEmail.value;
         var passwordValueSI = signInPass.value;
-
-
+        let vietThuong = /[a-z]/g;
+        let vietHoa = /[A-Z]/g;
+        let chuSo = /[0-9]/g;
         const signInToast = new Toasty(toastHTMLElement, toastContent);
+        
         if(emailValueSI.trim().length == 0 || passwordValueSI.trim().lenth == 0)
         {
             signInToast.showAlert("Khong duoc de trong!", 'red');
