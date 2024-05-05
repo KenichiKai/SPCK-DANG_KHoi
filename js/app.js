@@ -1,12 +1,4 @@
-let products = {
-    data: [
-        {
-            name: "Giày Chạy Bộ Nam Under Armour Hovr Sonic 6 - Trắng",
-            price: "780.000đ - 1.470.000đ",
-            image: "image/Shoe1.jpg"
-        },
-    ]
-}
+
 var productContainer = document.getElementById("products")
 for (let i in products.data) {
     document.getElementById("products").insertAdjacentHTML("beforeend",
