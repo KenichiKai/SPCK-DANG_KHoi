@@ -18,7 +18,7 @@ function render() {
     }
 }
 
-window.onload = render()
+// window.onload = render()
 
 function deleteProducts(index) {
     alert("Are you sure about delete " + listProducts[index].name)

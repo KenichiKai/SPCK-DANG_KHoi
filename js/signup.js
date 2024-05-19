@@ -5,11 +5,11 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
 import Toasty from "./toast.js";
 
-const signUpEmail = document.getElementById("signup-email");
-const signUpUsername = document.getElementById("signup-username");
-const signUpPass = document.getElementById("signup-password");
-const signUpConfirmPassword = document.getElementById("signup-confirm");
-const signUpBtn = document.getElementById("signup-btn");
+const signUpEmail = document.getElementById("email");
+const signUpUsername = document.getElementById("username");
+const signUpPass = document.getElementById("password");
+const signUpConfirmPassword = document.getElementById("confirmPassword");
+const signUpBtn = document.getElementById("btnSubmit");
 const toastHTMLElement = document.getElementById("toast");
 const toastContent = document.getElementById("toast-content");
 

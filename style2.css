@@ -123,7 +123,12 @@ a{
 #products .card .container h6 {
     font-weight: 400;
     font-size: 14px;
-    padding-top: 5px;
+    padding-top: 115px;
+}
+#products .card .product-h7 {
+    font-weight: 400;
+    font-size: 10px;
+    margin: 115px;
 }
 
 #products .card .container button{

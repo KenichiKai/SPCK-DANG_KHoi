@@ -13,13 +13,15 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
     <div class="">
         <div class="intro">
             <div class="box">
-                <ul>
+                <ul id="scrollUp">
                     <li class="item-1">[26.03 - 31.03] FITFLOP - VOUCHER 10% CHO MỌI HÓA ĐƠN &gt;&gt; XEM NGAY</li>
                     <li class="item-2">[14-31.03] - SPEEDO, ZOGGS, ONEILL - GIÁ ĐẶC BIỆT &gt;&gt; XEM NGAY</li>
                     <li class="item-3">[15-31.03] - LFC - GIÁ ĐẶC BIỆT + QUÀ TẶNG &gt;&gt; XEM NGAY</li>
@@ -34,10 +36,10 @@
                 </a>
             </div>
             <div class="page">
-                <a href="#">Nam</a>
-                <a href="#">Nu</a>
-                <a href="#">Tre em</a>
-                
+                <a href="#">Super</a>
+                <a href="#">Sport</a>
+                <a href="#">NIKE</a>
+
             </div>
 
 
@@ -47,7 +49,7 @@
                 <button id="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <a href="cart.html">
+                <a href="./cart.html">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
                 <a href="signup.html">
@@ -76,6 +78,8 @@
             <div class="swiper-pagination"></div>
         </div>
 
+
+
         <!-- Category -->
         <div class="section section-category">
             <div class="title">
@@ -86,108 +90,127 @@
                 <div class="category row">
                     <div class="col-lg-3 col-md-4 col-sm-12 section">
                         <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/giay_thoi_trang_82c51ffc-ce67-4330-b12a-2fe06bd12ba3_120x@2x.png"
-                                        alt=""></div>
+                            <a class="d-flex" href="fashionshoes.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/giay_thoi_trang_82c51ffc-ce67-4330-b12a-2fe06bd12ba3_120x@2x.png"
+                                            alt=""></div>
 
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Giày thời trang</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 section">
-                        <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/giay_chay_bo_b0053711-c138-489c-8b87-7b28e07084e2_120x@2x.png"
-                                        alt=""></div>
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Giày thể thao</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 section">
-                        <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/ao_thun_8ffaa816-7321-4997-9cf4-713b5fc482de_120x@2x.png" alt="">
                                 </div>
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Áo thun</p>
-                            </div>
+                                <div class="father">
+                                    <p id="child" class="child sport-name">Giày thời trang</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-12 section">
                         <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/do_boi_dd0075dc-b608-4bd0-ad44-1432afb7dd91_120x@2x.png" alt="">
+                            <a class="d-flex" href="sportshoes.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/giay_chay_bo_b0053711-c138-489c-8b87-7b28e07084e2_120x@2x.png"
+                                            alt=""></div>
+                                </div>
+                                <div class="father">
+                                    <p class="child sport-name">Giày thể thao</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 section">
+                        <div class="p-3">
+                            <a class="d-flex" href="shirt.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/ao_thun_8ffaa816-7321-4997-9cf4-713b5fc482de_120x@2x.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="father">
+                                    <p class="child sport-name">Áo thun</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 section">
+                        <div class="p-3">
+                            <a class="d-flex" href="swimming.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/do_boi_dd0075dc-b608-4bd0-ad44-1432afb7dd91_120x@2x.png"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="father">
+                                    <p class="child sport-name">Đồ bơi</p>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 section">
+                        <div class="p-3">
+                            <a class="d-flex" href="jacket.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/ao_khoat_1144b4c2-57ed-409c-9719-6c3b1c90df4a_120x@2x.png"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="father">
+                                    <p class="child sport-name">Áo khoát</p>
                                 </div>
 
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Đồ bơi</p>
-                            </div>
-
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-12 section">
                         <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/ao_khoat_1144b4c2-57ed-409c-9719-6c3b1c90df4a_120x@2x.png" alt="">
+                            <a class="d-flex" href="practiceshoes.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/giay_luyen_tap_9fa843d9-95f3-4f9f-80ad-17f75bedd853_120x@2x.png"
+                                            alt=""></div>
+
                                 </div>
-
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Áo khoát</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 section">
-                        <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/giay_luyen_tap_9fa843d9-95f3-4f9f-80ad-17f75bedd853_120x@2x.png"
-                                        alt=""></div>
-
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Giày luyện tập</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 section">
-                        <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/quan_ngan_cd41f661-4133-4254-80b1-6df1fd9f26e9_120x@2x.png"
-                                        alt=""></div>
-
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Quần ngắn</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 section">
-                        <div class="p-3">
-                            <div>
-                                <div><img class="child"
-                                        src="./images/ba_lo_6aa67d50-b366-4ce7-ad42-a565d2e78829_120x@2x.png" alt="">
+                                <div class="father">
+                                    <p class="child sport-name">Giày luyện tập</p>
                                 </div>
-                            </div>
-                            <div class="father">
-                                <p class="child sport-name">Ba lô</p>
-                            </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 section">
+                        <div class="p-3">
+                            <a class="d-flex" href="shorts.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/quan_ngan_cd41f661-4133-4254-80b1-6df1fd9f26e9_120x@2x.png"
+                                            alt=""></div>
+
+                                </div>
+                                <div class="father">
+                                    <p class="child sport-name">Quần ngắn</p>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 section">
+                        <div class="p-3">
+                            <a class="d-flex" href="packback.html">
+                                <div>
+                                    <div><img class="child"
+                                            src="./images/ba_lo_6aa67d50-b366-4ce7-ad42-a565d2e78829_120x@2x.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="father">
+                                    <p class="child sport-name">Ba lô</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -203,13 +226,13 @@
         <div class="container-fluid px-4 overflow-hidden">
             <!-- <div class="category row"> -->
             <div class="VOUCHER row">
-                <div class=" col-md-3  section">
-                    <div class="section-promotion__item">
+                <div class=" col-md-3  section scale-small ">
+                    <div class="section-promotion__item ">
                         <div class="background-promotion"
                             style="background-image: url('./images/ADIDAS_BOTW_06-15.04_581_574_V_360x@2x.jpg');"></div>
                     </div>
                 </div>
-                <div class=" col-md-3  section">
+                <div class=" col-md-3  section scale-small">
 
                     <!-- <div>
                                 <div><img class="child" src="./images/FILA_BOTW_06-15.04_581_574_v_460x@2x.jpg"
@@ -222,7 +245,7 @@
                     </div>
 
                 </div>
-                <div class=" col-md-3  section">
+                <div class=" col-md-3  section scale-small">
 
                     <!-- <div>
                                 <div><img class="child" src="./images/NIKE_BOTW_06-15.04_581_574_V_d0f3adef-bf2e-4d47-aea9-f64330184f75_360x@2x.jpg"
@@ -237,7 +260,7 @@
 
 
                 </div>
-                <div class=" col-md-3  section">
+                <div class=" col-md-3  section scale-small">
 
                     <!-- <div>
                                 <div><img class="child" src="./images/CROCS_BOTW_06-15.04_581_574_V_360x@2x (1).jpg"
@@ -387,99 +410,87 @@
             Sản phẩm mới
         </div>
         <div class="container-fluid px-4 section-new">
-            <div class="NEW row">
-                <div class="products col-3">
-                    <div class="products-img"><img src="./images/Shoe1.jpg" alt=""></div>
-                    <div class="products-brand">Under amour</div>
-                    <div class="products-name">Giày Chạy Bộ Nam Under Armour Hovr Sonic 6 - Trắng</div>
-                    <div class="products-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>5 đánh giá</span>
-                    </div>
-                    <div class="products-price">
-                        <div class="discount-price">
-                            2.863.000đ
-                        </div>
-                        <div class="sell-price">
-                            4.090.000đ
-                        </div>
-                    </div>
-                </div>
-
-                <div class="products col-3">
-                    <div class="products-img"><img src="./images/Shoe1.jpg" alt=""></div>
-                    <div class="products-brand">Under amour</div>
-                    <div class="products-name">Giày Chạy Bộ Nam Under Armour Hovr Sonic 6 - Trắng</div>
-                    <div class="products-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>5 đánh giá</span>
-                    </div>
-                    <div class="products-price">
-                        <div class="discount-price">
-                            2.863.000đ
-                        </div>
-                        <del class="sell-price">
-                            4.090.000đ
-                        </del>
-                    </div>
-                </div>
-
-                <div class="products col-3">
-                    <div class="products-img"><img src="./images/Shoe1.jpg" alt=""></div>
-                    <div class="products-brand">Under amour</div>
-                    <div class="products-name">Giày Chạy Bộ Nam Under Armour Hovr Sonic 6 - Trắng</div>
-                    <div class="products-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>5 đánh giá</span>
-                    </div>
-                    <div class="products-price">
-                        <div class="discount-price">
-                            2.863.000đ
-                        </div>
-                        <div class="sell-price">
-                            4.090.000đ
-                        </div>
-                    </div>
-                </div>
-
-                <div class="products col-3">
-                    <div class="products-img"><img src="./images/Shoe1.jpg" alt=""></div>
-                    <div class="products-brand">Under amour</div>
-                    <div class="products-name">Giày Chạy Bộ Nam Under Armour Hovr Sonic 6 - Trắng</div>
-                    <div class="products-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>5 đánh giá</span>
-                    </div>
-                    <div class="products-price">
-                        <div class="discount-price">
-                            2.863.000đ
-                        </div>
-                        <div class="sell-price">
-                            4.090.000đ
-                        </div>
-                    </div>
-                </div>
-
+            <div class="NEW row" id="new-products">
             </div>
         </div>
     </div>
 
+
+    <div class="end">
+        <section class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Info</h4>
+                    <ul class="links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Compressions</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Collection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul class="links">
+                        <li><a href="#">Free Designs</a></li>
+                        <li><a href="#">Latest Designs</a></li>
+                        <li><a href="#">Themes</a></li>
+                        <li><a href="#">Popular Designs</a></li>
+                        <li><a href="#">Art Skills</a></li>
+                        <li><a href="#">New Uploads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="links">
+                        <li><a href="#">Customer Agreement</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>
+                        Subscribe to our newsletter for a weekly dose
+                        of news, updates, helpful tips, and
+                        exclusive offers.
+                    </p>
+                    <form action="#">
+                        <input type="text" placeholder="Your email" required>
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                    <div class="socialmedia mt-3">
+                        <ul class="wrapper">
+                            <li class="icon facebook">
+                                <span class="tooltip">Facebook</span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </li>
+                            <li class="icon twitter">
+                                <span class="tooltip">Twitter</span>
+                                <span><i class="fab fa-twitter"></i></span>
+                            </li>
+                            <li class="icon instagram">
+                                <span class="tooltip">Instagram</span>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </li>
+                            <li class="icon github">
+                                <span class="tooltip">Github</span>
+                                <span><i class="fab fa-github"></i></span>
+                            </li>
+                            <li class="icon youtube">
+                                <span class="tooltip">Youtube</span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
 
 
 
@@ -513,7 +524,11 @@
         });
     </script>
 </body>
+<script type="module" src="./js/firebase.js"></script>
+<script type="module" src="./js/product.js"></script>
 <script src="app.js"></script>
+<script src="java.js"></script>
+<script src="./js/index2.js"></script>
 
 
 </html>

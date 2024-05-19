@@ -14,6 +14,7 @@ var option = {
   
     }
     showAlert(text, color) {
+      console.log(text)
       this.toastHTMLElement.style.backgroundColor = color;
       this.toastContent.innerHTML = text;
       this.toastElement.show();

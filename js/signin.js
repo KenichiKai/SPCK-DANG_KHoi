@@ -6,9 +6,9 @@ import {
 
     const auth = getAuth();
 
-    const signInEmail = document.getElementById("signin-email");
-    const signInPass = document.getElementById("signin-password");
-    const signInBtn = document.getElementById("signin-btn");
+    const signInEmail = document.getElementById("email");
+    const signInPass = document.getElementById("password");
+    const signInBtn = document.getElementById("btnSubmit");
     const toastHTMLElement = document.getElementById("toast");
     const toastContent = document.getElementById("toast-content");
 
