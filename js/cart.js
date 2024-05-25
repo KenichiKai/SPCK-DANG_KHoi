@@ -6,7 +6,7 @@ function render() {
         document.getElementById("products").insertAdjacentHTML("beforeend", `
          <div class="card">
         <div class="image-container">
-            <img src="../${listProducts[i].image}" alt="">
+            <img src="../images/${listProducts[i].image}" alt="">
         </div>
         <div class="container">
             <h5 class="product-name">${listProducts[i].name}</h5>
@@ -18,7 +18,7 @@ function render() {
     }
 }
 
-// window.onload = render()
+window.onload = render()
 
 function deleteProducts(index) {
     alert("Are you sure about delete " + listProducts[index].name)

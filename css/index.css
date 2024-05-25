@@ -78,6 +78,7 @@ a {
 .main-content .selector {
     padding: 16px 0px;
     text-align: center;
+    margin-top: 30px ;
 }
 
 .main-content .selector a {
@@ -350,6 +351,7 @@ a {
     width: 100%;
     border-radius: 10px;
 }
+
 
 .NEW {
     margin-top: 20px;

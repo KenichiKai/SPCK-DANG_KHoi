@@ -23,7 +23,7 @@ import {
         
         if(emailValueSI.trim().length == 0 || passwordValueSI.trim().lenth == 0)
         {
-            signInToast.showAlert("Khong duoc de trong!", 'red');
+            signInToast.showAlert("Không được để trống!", 'red');
         }
         else{
             signInWithEmailAndPassword(auth, emailValueSI, passwordValueSI)
@@ -31,7 +31,7 @@ import {
                 const user = useCredential.user;
                 console.log(user);
                 async function signIn() {
-                     signInToast.showAlert("Dang nhap thanh cong!", 'green');
+                     signInToast.showAlert("Đăng nhập thành công!", 'green');
                      await new Promise(resolve => setTimeout(resolve, 1000))
                      window.location.href = "index.html";
                 }

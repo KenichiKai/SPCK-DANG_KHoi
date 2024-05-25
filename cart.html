@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -37,13 +37,17 @@
                 <a href="cart.html">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
-                <!-- <a href="login/login.html">
-                    <i class="fa-solid fa-user" id="users"></i>
-                </a> -->
+                
                 <div class="lines"></div>
                 <i class="fa-solid fa-globe"></i>
             </div>
         </div>
+        <div class="main-content">
+            <div class="selector">
+                <h1>YOUR CART</h1>
+            </div>
+
+            <div id="products">
         <div class="section section-new">
             <div class="title">
                 Giỏ hàng
@@ -93,4 +97,78 @@
         crossorigin="anonymous"></script>
 </body>
 
+
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Page</title>
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="top-menu">
+            <div>
+                <a href="../index.html">
+                    <img src="../images/Nike-Logo-1971-now-removebg-preview.png" alt="" width="80px" ;>
+                </a>
+            </div>
+            <div class="page">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="icon">
+                <input class="searchInput" placeholder="Searching..." type="text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <!-- <a href="login/login.html">
+                    <i class="fa-solid fa-user" id="users"></i>
+                </a> -->
+                <div class="lines"></div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>  
+
+        <div class="main-content">
+            <div class="selector">
+                <h1>YOUR CART</h1>
+            </div>
+
+            <div id="products">
+                <!-- <div class="card">
+                    <div class="image-container">
+                        <img src="../images/web-1.jpg" alt="">
+                    </div>
+                    <div class="container">
+                        <h5 class="product-name">ABC</h5>
+                        <h6><b>Price:</b> 999$</h6>
+                        <button class="btnDelete" onclick="">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="footer-outer">
+            <button class="btnDeleteAll" onclick="deleteAll()">Remove All</button>
+            <button id="buy-btn" class="btnBuy">Buy</button>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+    <script>
+        document.getElementById("buy-btn").addEventListener("click", function(){
+    window.location.href= "final.html"
+})
+    </script>
+</body>
 </html>
