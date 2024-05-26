@@ -1,21 +1,34 @@
 import {
-    addDoc,
-    collection,
-    deleteDoc,
-    doc,
-    onSnapshot,
+  addDoc,
+  collection,
+  deleteDoc,
+  doc,
+  onSnapshot,
 } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js";
 import { db } from "./firebase.js";
 
-const collectionRef = collection(db, "products")
+const collectionRef = collection(db, "products");
 
-const newProducts = document.getElementById("new-products")
+const newProducts = document.getElementById("new-products");
+
+let cartList = JSON.parse(localStorage.getItem("cart"));
+
+if (!cartList || cartList.length === 0) {
+  localStorage.setItem("cart", JSON.stringify([]));
+  cartList = [];
+}
 
 // Lấy dữ liệu từ firestore trong firebase về
 onSnapshot(collectionRef, function (data) {
-    let productHTML = ""
-    data.docs.forEach(function (item) {
-        productHTML = productHTML + `<div style="padding: 16px" class="products col-3">
+  const productList = [];
+  let productHTML = "";
+
+  data.docs.forEach(function (item) {
+    productList.push({ ...item.data(), id: item.id });
+
+    productHTML =
+      productHTML +
+      `<div style="padding: 16px" class="products col-3">
         <div class="products-img"><img src="${item.data().image}" alt=""></div>
         <div class="products-brand">${item.data().brand}</div>
         <div class="products-name">${item.data().name}</div>
@@ -29,52 +42,45 @@ onSnapshot(collectionRef, function (data) {
                 <span>5 đánh giá</span>
             </div>
             <div class="products-price">
-                ${item.data().discountPrice == 0 ?
-                `<div class="discount-price">
+                ${
+                  item.data().discountPrice == 0
+                    ? `<div class="discount-price">
                     ${item.data().price} &#8363;
                 </div>`
-                :
-                `<div class="discount-price">
+                    : `<div class="discount-price">
                     ${item.data().discountPrice} &#8363;
                 </div>`
-            }
-                ${item.data().discountPrice == 0 ? "" : `<div class="sell-price line-through">
+                }
+                ${
+                  item.data().discountPrice == 0
+                    ? ""
+                    : `<div class="sell-price line-through">
                 ${item.data().price} &#8363;
-                </div>`}
+                </div>`
+                }
             </div>
             <button class="cartdesign">Thêm vào giỏ hàng</button>            
         </div>
-    </div>`
-    
-    })
+    </div>`;
+  });
 
-    newProducts.innerHTML = productHTML
-})
+  newProducts.innerHTML = productHTML;
 
-// var searchInput = document.getElementById("search-input")
-// var searchBtn = document.getElementById("search")
+  const cartElements = document.querySelectorAll(".cartdesign");
 
-// searchInput.addEventListener("change", function(e)  {
-//     let inputValue = searchInput.value.toUpperCase()
-//     let cards = document.querySelectorAll(".card")
-//     let productBrand = document.querySelectorAll(".product-brand")
-//     let productName = document.querySelectorAll(".product-name")
+  cartElements.forEach((item, idx) => {
+    item.onclick = () => {
+      const findExistInCart = cartList.some(
+        (item) => item.id === productList[idx].id
+      );
 
-//     productName.forEach((item, index) => {
-//         if (item.innerHTML.includes(inputValue)) {
-//             console.log(inputValue)
-
-//             cards[index].classList.remove("hide")
-//         }
-//         else {
-//             cards[index].classList.add("hide")
-//         }
-//     })
-// })
-
-// function addToCart(index) {
-//     const listCart = JSON.parse(localStorage.getItem("cart")) || []
-//     listCart.push(products.data[index])
-//     localStorage.setItem("cart", JSON.stringify(listCart))
-//     alert("Add to cart successfully")
-// }
+      if (findExistInCart) {
+        alert("Sản phẩm này đã được thêm từ trước!");
+      } else {
+        cartList.push(productList[idx]);
+        localStorage.setItem("cart", JSON.stringify(cartList));
+        alert("Thêm vào giỏ hàng thành công");
+      }
+    };
+  });
+});
