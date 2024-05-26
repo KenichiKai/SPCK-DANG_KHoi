@@ -1,94 +1,66 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
-            brand: "PUMA",
+            name: "Giày Luyện Tập Nữ Skechers GOwalk Massage Fit - Xám",
+            brand: "SKECHERS",
             price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            image: "items/pract1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            name: "Giày Tập Luyện Nữ Skechers GOwalk Flex - Slip In - Be",
+            brand: "SKECHERS",
+            price: " 2.523.000đ",
+            image: "items/pract2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            name: "Giày Luyện Tập Nữ Skechers GOwalk Flex - Grand Entrance - Xám",
+            brand: "SKECHERS",
+            price: "  1.920.000đ",
+            image: "items/pract3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            name: "Giày Luyện Tập Nữ Skechers GOwalk 7 - Xanh Navy",
+            brand: "SKECHERS",
+            price: " 2.293.000đ",
+            image: "items/pract4.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: "Giày Luyện Tập Nữ Skechers GOwalk 7 - Trắng",
+            brand: "SKECHERS",
+            price: " 2.210.000đ",
+            image: "items/pract5.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Giày Luyện Tập Nữ Skechers GOwalk 7 - Đen",
+            brand: "SKECHERS",
+            price: " 2.632.000đ",
+            image: "items/pract6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Giày Luyện Tập Nữ Skechers D'Lux Fitness - Xanh Navy",
+            brand: "SKECHERS",
+            price: " 1.243.000đ",
+            image: "items/pract7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
+            name: "Giày Tập Luyện Nam Skechers GOwalk 6 - Slip In - Xám",
+            brand: "SKECHERS",
+            price: " 1.558.000đ",
+            image: "items/pract8.jpg"
         },
 
         {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
-        },
-
-        {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
+            name: "Giày Luyện Tập Nữ Under Armour Project Rock 5 - Trắng",
+            brand: "UNDER ARMOUR",
+            price: " 2.325.000đ",
+            image: "items/pract9.jpg"
         },
     ]
 }

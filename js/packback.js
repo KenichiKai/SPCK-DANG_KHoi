@@ -1,94 +1,66 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
+            name: "Ba Lô Puma Academy - Đen",
             brand: "PUMA",
-            price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            price: " 999.000đ",
+            image: "items/balo1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
+            name: "Ba Lô Thể Thao Puma Downtown - Nâu",
             brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            price: " 1.170.000đ",
+            image: "items/balo2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            name: "Ba Lô Under Armour Loudon Lite - Xanh Navy",
+            brand: "UNDER ARMOUR",
+            price: " 640.000đ",
+            image: "items/balo3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            name: "Túi Trống Luyện Tập Under Armour Undeniable 5.0 Duffle - Xám",
+            brand: "UNDER ARMOUR",
+            price: " 850.000đ",
+            image: "items/balo4.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: "Ba Lô Under Armour Loudon Sm - Xanh Navy",
+            brand: "UNDER ARMOUR",
+            price: " 1.240.000đ",
+            image: "items/balo5.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Ba Lô Under Armour Loudon - Xám",
+            brand: "UNDER ARMOUR",
+            price: " 570.000đ",
+            image: "items/balo6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Ba Lô Under Armour Loudon Lite - Xanh Navy",
+            brand: "UNDER ARMOUR",
+            price: " 670.000đ",
+            image: "items/balo7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
+            name: "Túi đeo chéo Ellesse Summer Resort-Trevaro Cross",
+            brand: "Ellesse",
+            price: " 340.000đ",
+            image: "items/balo8.jpg"
         },
 
         {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
-        },
-
-        {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
+            name: "Túi Trống Thể Thao Thể Thao Cỡ Nhỏ Adidas 4Athlts - Đen",
+            brand: "Adidas",
+            price: " 980.000đ",
+            image: "items/balo9.jpg"
         },
     ]
 }

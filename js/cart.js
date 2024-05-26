@@ -6,7 +6,7 @@ function render() {
         document.getElementById("products").insertAdjacentHTML("beforeend", `
          <div class="card">
         <div class="image-container">
-            <img src="../images/${listProducts[i].image}" alt="">
+            <img src=".//${listProducts[i].image}" alt="">
         </div>
         <div class="container">
             <h5 class="product-name">${listProducts[i].name}</h5>
@@ -29,6 +29,14 @@ function deleteProducts(index) {
 
 function deleteAll() {
     alert("Are you sure you want to remove all?")
+    listProducts = []
+    localStorage.setItem("cart", JSON.stringify(listProducts))
+    render()
+    
+}
+
+function buyAll() {
+    // alert("Are you sure you want to remove all?")
     listProducts = []
     localStorage.setItem("cart", JSON.stringify(listProducts))
     render()

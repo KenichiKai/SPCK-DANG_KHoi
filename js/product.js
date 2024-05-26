@@ -29,7 +29,7 @@ onSnapshot(collectionRef, function (data) {
                 <span>5 đánh giá</span>
             </div>
             <div class="products-price">
-                ${item.data().discountPrice == 0 ?
+                ${item.data().discountPrice == 0 ? //toán tử ba nhôi//
                 `<div class="discount-price">
                     ${item.data().price} &#8363;
                 </div>`

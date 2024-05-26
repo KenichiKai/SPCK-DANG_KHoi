@@ -1,94 +1,73 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
-            brand: "PUMA",
-            price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            name: "Giày Chạy Bộ Nam Under Armour Flow Velociti Wind 2 - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 2.199.000đ",
+            image: "items/sport1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            name: "Giày Chạy Bộ Nữ Under Armour Hovr Machina 3 - Cam",
+            brand: "UNDER ARMOUR",
+            price: " 2.870.000đ",
+            image: "items/sport2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            name: "Giày Chạy Bộ Nữ Under Armour Flow Synchronicity - Xám",
+            brand: "UNDER ARMOUR",
+            price: " 1.730.000đ",
+            image: "items/sport3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            name: "Giày Chạy Bộ Nữ Under Armour Hovr™ Machina 2 Se - Hồng",
+            brand: "UNDER ARMOUR",
+            price: " 1.993.000đ",
+            image: "items/sport4.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: "Giày Chạy Bộ Nữ Skechers GORun Razor 4 - Trắng",
+            brand: "SKECHERS",
+            price: " 1.974.000đ",
+            image: "items/sport5.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Giày Chạy Bộ Nam Skechers GORun Consistent - Đen",
+            brand: "SKECHERS",
+            price: "  1.450.000đ",
+            image: "items/sport6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Giày Chạy Bộ Nam Under Armour Hovr Machina 3 - Cam",
+            brand: "UNDER ARMOUR",
+            price: "1.642.000đ",
+            image: "items/sport7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
+            name: "Giày Chạy Bộ Nữ Under Armour Hovr Machina 3 - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 2.345.000đ",
+            image: "items/sport8.jpg"
         },
 
         {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
+            name: "Giày Chạy Bộ Nam Hoka Bondi 8 - Xanh Dương",
+            brand: "HOKA",
+            price: " 1.780.000đ",
+            image: "items/sport9.jpg"
         },
 
         {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
+            name: "Giày Chạy Bộ Nam Hoka Clifton 9 Wide - Be",
+            brand: "HOKA",
+            price: " 3.119.000đ",
+            image: "items/sport10.jpg"
         },
     ]
 }

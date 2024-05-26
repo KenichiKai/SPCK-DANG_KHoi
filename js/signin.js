@@ -32,7 +32,7 @@ import {
                 console.log(user);
                 async function signIn() {
                      signInToast.showAlert("Đăng nhập thành công!", 'green');
-                     await new Promise(resolve => setTimeout(resolve, 1000))
+                     await new Promise(resolve => setTimeout(resolve, 1000)) 
                      window.location.href = "index.html";
                 }
                 signIn()
