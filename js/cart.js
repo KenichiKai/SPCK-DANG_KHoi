@@ -48,9 +48,9 @@ function render() {
 
   removeBtns.forEach((item, idx) => {
     item.onclick = () => {
-      cartList.splice(idx, 1);
-      localStorage.setItem("cart", JSON.stringify(cartList));
-      renderCart();
+      listProducts.splice(idx, 1);
+      localStorage.setItem("cart", JSON.stringify(listProducts));
+      render();
     };
   });
 }
