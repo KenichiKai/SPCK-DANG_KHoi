@@ -1,94 +1,59 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
-            brand: "PUMA",
-            price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            name: "Quần Ngắn Nam Under Armour Iso-Chill - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 299.000đ",
+            image: "items/short1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            name: "Quần Ngắn Nam Under Armour Iso-Chill - Be",
+            brand: "UNDER ARMOUR",
+            price: " 470.000đ",
+            image: "items/short2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            name: "Quần Ngắn Nam Under Armour Drive Tapered - Xanh Navy",
+            brand: "UNDER ARMOUR",
+            price: " 340.000đ",
+            image: "items/short3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            name: "Quần Ngắn Nam Under Armour Vanish Woven 6 - Xám",
+            brand: "UNDER ARMOUR",
+            price: " 420.000đ",
+            image: "items/short4.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: "Quần Ngắn Nam Under Armour Launch Elite 5'' - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 540.000đ",
+            image: "items/short5.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Quần Ngắn Nữ Under Armour Run Stamina 2-In-1 - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 570.000đ",
+            image: "items/short6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Quần Ngắn Nam Under Armour Peak Woven - Xám",
+            brand: "UNDER ARMOUR",
+            price: " 130.000đ",
+            image: "items/short7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
-        },
-
-        {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
-        },
-
-        {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
+            name: "Quần Ngắn Nam Under Armour Project Rock Woven Printed - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 370.000đ",
+            image: "items/short8.jpg"
         },
     ]
 }

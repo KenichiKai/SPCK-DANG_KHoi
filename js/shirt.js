@@ -1,94 +1,59 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
+            name: "Áo Thun Nam Puma Power Printed - Xanh Navy",
             brand: "PUMA",
-            price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            price: " 599.000đ",
+            image: "items/shirt1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            name: "Áo Tay Ngắn Nam Under Armour Heatgear",
+            brand: "UNDER ARMOUR",
+            price: " 393.000đ",
+            image: "items/shirt2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            name: "Áo Thun Thể Thao Nam Under Armour Gl Foundation - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 370.000đ",
+            image: "items/shirt3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
+            name: "Áo Thun Nam Puma Graphics Wave - Xanh Mint",
             brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            price: " 479.000đ",
+            image: "items/shirt4.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: "Áo Thun Nam Lfc Retro Banner - Xanh Navy",
+            brand: "LFC",
+            price: " 434.000đ",
+            image: "items/shirt5.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Áo Thun Bé Trai Lfc Junior Raglan - Xám",
+            brand: "LFC",
+            price: " 355.000đ",
+            image: "items/shirt6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Áo Thun Tay Ngắn Thời Trang Unisex Fila Stacked - Xanh Navy",
+            brand: "FILA",
+            price: " 447.000đ",
+            image: "items/shirt7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
-        },
-
-        {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
-        },
-
-        {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
+            name: "Áo Thun Tay Ngắn Thời Trang Unisex Fila Carnevale Di Fila - Đen",
+            brand: "FILA",
+            price: " 445.000đ",
+            image: "items/shirt8.jpg"
         },
     ]
 }

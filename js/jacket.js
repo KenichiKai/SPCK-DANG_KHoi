@@ -1,95 +1,68 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
-            brand: "PUMA",
-            price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            name: "Áo Khoác Nam Under Armour Meridian Full-Zip - Xanh Dương",
+            brand: "UNDER ARMOUR",
+            price: " 1.349.000đ",
+            image: "items/coat1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
-            brand: "PUMA",
+            name: "Áo Khoác Nam Under Armour Storm Run - Trắng",
+            brand: "UNDER ARMOUR",
             price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            image: "items/coat2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            name: "Áo Khoác Nam Under Armour Project Rock Mesh Varsity - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 1.360.000đ",
+            image: "items/coat3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            name: "Áo Khoác Nữ Under Armour Rush Woven - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 1.740.000đ",
+            image: "items/coat4.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: ">Áo Khoác Nam Under Armour Project Rock Unstoppable Printed - Trắng",
+            brand: "UNDER ARMOUR",
+            price: " 3.470.000đ",
+            image: "items/coat5.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Áo Khoác Nữ Under Armour Phantom Windbreaker - Trắng",
+            brand: "UNDER ARMOUR",
+            price: " 2.303.000đ",
+            image: "items/coat6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Áo Khoác Nữ Under Armour Sport Windbreaker - Tím",
+            brand: "UNDER ARMOUR",
+            price: " 990.000đ",
+            image: "items/coat7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
+            name: "Áo Khoác Nam Columbia Glennaker Lake™ Rain - Đỏ",
+            brand: "COLUMBIA",
+            price: " 2.670.000đ",
+            image: "items/coat8.jpg"
         },
 
         {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
+            name: "Áo Khoác Nam Under Armour Project Rock Knit - Đen",
+            brand: "UNDER ARMOUR",
+            price: " 780.000đ",
+            image: "items/coat9.jpg"
         },
 
-        {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
-        },
     ]
 }
 var productContainer = document.getElementById("products")

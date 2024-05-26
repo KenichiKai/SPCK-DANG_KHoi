@@ -1,94 +1,59 @@
 let products = {
     data: [
         {
-            name: "Giày Sneaker Unisex Puma X-Playstation - Trắng",
-            brand: "PUMA",
-            price: " 3.099.000đ",
-            image: "fashionshoes/WhitePUMA.jpg",
+            name: "Quần Bơi Nam Speedo Dive Splice - Xanh Navy",
+            brand: "SPEEDO",
+            price: " 299.000đ",
+            image: "items/swim1.jpg",
         },
 
         {
-            name: "RAEDA DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Raeda-Deck.jpg"
+            name: "Quần Bơi Nam Speedo Tech Panel - Xanh Navy",
+            brand: "SPEEDO",
+            price: " 470.000đ",
+            image: "items/swim2.jpg"
         },
 
         {
-            name: "MUSTY DECK",
+            name: "Quần Bơi Nữ Speedo Panel Printed - Hồng",
             brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Musty-Deck.jpg"
+            price: " 270.000đ",
+            image: "items/swim3.jpg"
         },
 
         {
-            name: "TRISTIQUE DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Tristique-deck.jpg"
+            name: "Đồ Bơi Một Mảnh Nữ Speedo Allover Printed Adjustable Thinstrap - Cam",
+            brand: "SPEEDO",
+            price: "540.000đ",
+            image: "items/swim5.jpg"
         },
 
         {
-            name: "FIELD TRIP DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.470.000đ",
-            image: "images/Fied-Trip-deck.jpg"
+            name: "Đồ Bơi Một Mảnh Nữ Speedo Shaping Contoureclipse - Đen",
+            brand: "SPEEDO",
+            price: " 470.000đ",
+            image: "items/swim4.jpg"
         },
 
         {
-            name: "TARO RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-5.jpg"
+            name: "Đồ Bơi Một Mảnh Nữ Speedo Zipper Front High Neck Kneesuit - Đen",
+            brand: "SPEEDO",
+            price: " 780.000đ",
+            image: "items/swim6.jpg"
         },
 
         {
-            name: "NEON RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-1.jpg"
+            name: "Áo Bơi Chống Nắng Nam Speedo End+ Splice - Xanh Navy",
+            brand: "SPEEDO",
+            price: " 670.000đ",
+            image: "items/swim7.jpg"
         },
 
         {
-            name: "ORANAGE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-2.jpg"
-        },
-
-        {
-            name: "BLUE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-3.jpg"
-        },
-
-        {
-            name: "WHITE RAINBOW LOGO DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/web-4.jpg"
-        },
-
-        {
-            name: "CUTIS MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cutis.jpg"
-        },
-
-        {
-            name: "CAM VU MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/cam-vu.jpg"
-        },
-
-        {
-            name: "SON NGUYEN MODEL DECK",
-            brand: "PUMA",
-            price: "780.000đ - 1.670.000đ",
-            image: "images/son-nguyen.jpg"
+            name: "Quần Bơi Nam Speedo Hyper Boom V-Cut - Đen",
+            brand: "SPEEDO",
+            price: " 430.000đ",
+            image: "items/swim8.jpg"
         },
     ]
 }
